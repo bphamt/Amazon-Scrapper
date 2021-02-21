@@ -40,7 +40,7 @@ if price < MY_PRICE:
     else:
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="bphamt@gmail.com",
+            to_addrs="-----redacted-----",
             msg='Subject: {}\n\n{}'.format(SUBJECT, MESSAGE)
         )
     finally:
